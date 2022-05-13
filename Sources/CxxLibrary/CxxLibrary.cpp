@@ -10,5 +10,11 @@
 using namespace std;
 
 string makeString() {
-    return "I made a string.";
+    string firstPart = "I made ";
+    string secondPart = "a string";
+    return firstPart + secondPart;
+}
+
+void printString() {
+    printf("%s\n", makeString().c_str());
 }
