@@ -14,4 +14,6 @@
 
 std::string makeString();
 
+extern "C" void printString();
+
 #endif /* CxxLibrary_hpp */
