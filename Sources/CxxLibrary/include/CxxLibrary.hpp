@@ -9,5 +9,9 @@
 #define CxxLibrary_hpp
 
 #include <stdio.h>
+#include <iostream>
+#include <string>
+
+std::string makeString();
 
 #endif /* CxxLibrary_hpp */
