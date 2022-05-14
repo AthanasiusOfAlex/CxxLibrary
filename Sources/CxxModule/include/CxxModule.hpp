@@ -10,6 +10,6 @@
 
 #include <iostream>
 
-extern "c" void printHello();
+extern "C" void printHello();
 
 #endif /* CxxModule_hpp */
