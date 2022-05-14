@@ -1,11 +1,11 @@
 //
-//  CxxLibrary.cpp
+//  CxxModule.cpp
 //  
 //
 //  Created by Louis Melahn on 5/13/22.
 //
 
-#include "CxxLibrary.hpp"
+#include "CxxModule.hpp"
 
 using namespace std;
 

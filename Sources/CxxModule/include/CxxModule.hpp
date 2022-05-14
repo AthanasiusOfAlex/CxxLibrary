@@ -1,12 +1,12 @@
 //
-//  CxxLibrary.hpp
+//  CxxModule.hpp
 //  
 //
 //  Created by Louis Melahn on 5/13/22.
 //
 
-#ifndef CxxLibrary_hpp
-#define CxxLibrary_hpp
+#ifndef CxxModule_hpp
+#define CxxModule_hpp
 
 #include <stdio.h>
 #include <iostream>
@@ -14,10 +14,6 @@
 
 std::string makeString();
 
-extern "C" {
-
 void printString();
 
-}
-
-#endif /* CxxLibrary_hpp */
+#endif /* CxxModule_hpp */
