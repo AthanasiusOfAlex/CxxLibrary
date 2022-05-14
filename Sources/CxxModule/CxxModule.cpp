@@ -7,7 +7,7 @@
 
 #include "CxxModule.hpp"
 
-void printString() {
+void printHello() {
     // use something from the standard library to make sure
     // c++ is really being used
     std::cout << "Hello, world!" << std::endl;
