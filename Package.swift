@@ -7,7 +7,8 @@ let package = Package(
     products: [
         .library(
             name: "CxxLibrary",
-            targets: ["SwiftModule"]),
+            targets: ["SwiftModule"]
+        ),
     ],
     dependencies: [
     ],
@@ -23,6 +24,7 @@ let package = Package(
         ),
         .testTarget(
             name: "CxxLibraryTests",
-            dependencies: ["SwiftModule"]),
+            dependencies: ["SwiftModule"]
+        ),
     ]
 )
