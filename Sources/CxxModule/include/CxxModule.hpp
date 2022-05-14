@@ -10,10 +10,7 @@
 
 #include <stdio.h>
 #include <iostream>
-#include <string>
 
-std::string makeString();
-
-void printString();
+extern "c" void printHello();
 
 #endif /* CxxModule_hpp */

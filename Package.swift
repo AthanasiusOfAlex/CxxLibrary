@@ -6,24 +6,19 @@ let package = Package(
     name: "CxxLibrary",
     products: [
         .library(
-            name: "CxxModule",
-            targets: ["CxxModule"]),
-        .library(
-            name: "CxxCommonHeaders",
-            targets: ["CxxCommonHeaders"]),
-        .library(
             name: "CxxLibrary",
-            targets: ["CxxLibrary"]),
+            targets: ["SwiftModule"]),
     ],
     dependencies: [
     ],
     targets: [
         .target(
-            name: "CxxModule", dependencies: []),
+            name: "CxxModule",
+            dependencies: []),
         .target(
-            name: "CxxCommonHeaders", dependencies: ["CxxModule"]),
-        .target(
-            name: "CxxLibrary",
-            dependencies: ["CxxModule", "CxxCommonHeaders"]),
+            name: "SwiftModule",
+            dependencies: ["CxxModule"],
+            path: "Sources/SwiftModule"
+        ),
     ]
 )

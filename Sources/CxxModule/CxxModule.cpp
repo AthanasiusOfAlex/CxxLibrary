@@ -7,14 +7,8 @@
 
 #include "CxxModule.hpp"
 
-using namespace std;
-
-string makeString() {
-    string firstPart = "I made ";
-    string secondPart = "a string";
-    return firstPart + secondPart;
-}
-
 void printString() {
-    printf("%s\n", makeString().c_str());
+    // use something from the standard library to make sure
+    // c++ is really being used
+    std::cout << "Hello, world!" << std::endl;
 }
