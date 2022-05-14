@@ -8,7 +8,6 @@
 #ifndef CxxModule_hpp
 #define CxxModule_hpp
 
-#include <stdio.h>
 #include <iostream>
 
 extern "c" void printHello();
