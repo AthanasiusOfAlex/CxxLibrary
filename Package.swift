@@ -14,11 +14,15 @@ let package = Package(
     targets: [
         .target(
             name: "CxxModule",
-            dependencies: []),
+            dependencies: []
+        ),
         .target(
             name: "SwiftModule",
             dependencies: ["CxxModule"],
             path: "Sources/SwiftModule"
         ),
+        .testTarget(
+            name: "CxxLibraryTests",
+            dependencies: ["SwiftModule"]),
     ]
 )

@@ -6,3 +6,7 @@
 //
 
 import CxxModule
+
+func swiftPrintHello() {
+    printHello()
+}

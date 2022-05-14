@@ -8,8 +8,14 @@
 #ifndef CxxModule_hpp
 #define CxxModule_hpp
 
-#include <iostream>
+#ifdef __cplusplus
+extern "C" {
+#endif
 
-extern "C" void printHello();
+void printHello();
+
+#ifdef __cplusplus
+}
+#endif
 
 #endif /* CxxModule_hpp */
